@@ -6,7 +6,7 @@ var person = {
 };
 function addNumber(a,b){
     return a + b;
-};
+}
 
 console.log(person);
 console.log(addNumber(2,7))
@@ -36,3 +36,25 @@ doSomethingWorthless();
 
 require('./bucky')
 require('./emily')
+
+var fs = require('fs');
+
+fs.writeFileSync("corn.txt", "Corn is good, corn is life");
+console.log(fs.readFileSync('corn.txt').toString());
+
+var path = require('path');
+var websiteHome = "Desktop/Bucky//thenewboston/index.html";
+var websiteAbout = "Desktop/Bucky/thenewboston/about.html";
+
+console.log(path.normalize(websiteHome));
+console.log(path.dirname(websiteAbout));
+console.log(path.basename(websiteAbout));
+console.log(path.extname(websiteAbout));
+
+//run repeatly
+setInterval(function (){
+    console.log("beef");
+}, 2000)
+
+console.log(__dirname);
+console.log(__filename)
