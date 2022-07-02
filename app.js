@@ -34,6 +34,5 @@ function doSomethingWorthless(){
 
 doSomethingWorthless();
 
-var movies = require('./module');
-movies.printAvatar();
-console.log(movies.favMovie);
+require('./bucky')
+require('./emily')
