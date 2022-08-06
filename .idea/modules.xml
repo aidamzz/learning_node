@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simple web pages/W3school/W3school.iml" filepath="$PROJECT_DIR$/simple web pages/W3school/W3school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bucky.iml" filepath="$PROJECT_DIR$/bucky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple web pages/routes/routes.iml" filepath="$PROJECT_DIR$/simple web pages/routes/routes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple web pages/simple web pages.iml" filepath="$PROJECT_DIR$/simple web pages/simple web pages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple web pages/views/views.iml" filepath="$PROJECT_DIR$/simple web pages/views/views.iml" />
+    </modules>
+  </component>
+</project>
